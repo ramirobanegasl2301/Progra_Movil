@@ -1,0 +1,28 @@
+/* En tu archivo de estilos de Ionic (styles.css o el estilo específico del componente) */
+
+/* Estilo común para la aplicación */
+ion-content {
+    padding: 20px;
+  }
+  
+  .custom-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .column-a,
+  .column-b {
+    width: 100%;
+  }
+  
+  /* Media query para cambiar el orden en pantallas medianas */
+  @media only screen and (min-width: 576px) {
+    .column-a {
+      order: 2;
+    }
+  
+    .column-b {
+      order: 1;
+    }
+  }
+  

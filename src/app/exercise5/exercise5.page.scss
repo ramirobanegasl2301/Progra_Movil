@@ -1,0 +1,51 @@
+/* exercise5.page.scss */
+ion-img.product-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  ion-title.product-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  ion-text.product-description {
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 767px) {
+    /* Estilos para pantallas pequeñas */
+    ion-img.product-image {
+      /* Ocupa toda la fila en pantallas pequeñas */
+      width: 100%;
+      height: auto;
+    }
+  
+    ion-title.product-title,
+    ion-text.product-description {
+      /* Centrar y ajustar el ancho en pantallas pequeñas */
+      text-align: center;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    /* Estilos para pantallas grandes */
+    ion-img.product-image {
+      /* Ocupa la mitad de la fila en pantallas grandes */
+      width: 50%;
+      height: auto;
+      float: left;
+    }
+  
+    ion-title.product-title,
+    ion-text.product-description {
+      /* Ocupa la mitad de la fila en pantallas grandes */
+      width: 50%;
+      float: right;
+    }
+  }
+  

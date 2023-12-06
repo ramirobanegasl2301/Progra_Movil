@@ -1,0 +1,11 @@
+.mi-card {
+    background-color: #ffffff; 
+    padding: 20px;
+}
+
+
+@media only screen and (max-width: 400px) {
+    .mi-card {
+        background-color: #ffcc00; 
+    }
+}

@@ -1,0 +1,15 @@
+ion-content {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  /* Media query para ocultar la imagen en pantallas con ancho máximo de 500 píxeles */
+  @media only screen and (max-width: 500px) {
+    .content ion-img {
+      display: none;
+    }
+  }

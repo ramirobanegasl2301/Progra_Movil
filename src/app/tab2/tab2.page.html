@@ -1,0 +1,45 @@
+<!-- Importa las siguientes líneas en el archivo CSS global de tu aplicación o en el componente específico donde estás trabajando -->
+<style>
+  .custom-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+</style>
+
+<!-- En el archivo HTML de tu página -->
+<ion-content>
+  <ion-grid class="custom-row">
+    <!-- Fila con tres columnas -->
+    <ion-row>
+      <!-- Primera columna -->
+      <ion-col size-xs="12" size-sm="12" size-md="6" size-lg="4">
+        <!-- Contenido de la primera columna -->
+        <ion-card>
+          <ion-card-content>
+            <p>Contenido de la columna 1</p>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+
+      <!-- Segunda columna -->
+      <ion-col size-xs="12" size-sm="12" size-md="6" size-lg="4">
+        <!-- Contenido de la segunda columna -->
+        <ion-card>
+          <ion-card-content>
+            <p>Contenido de la columna 2</p>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+
+      <!-- Tercera columna -->
+      <ion-col size-xs="12" size-sm="12" size-md="6" size-lg="4">
+        <!-- Contenido de la tercera columna -->
+        <ion-card>
+          <ion-card-content>
+            <p>Contenido de la columna 3</p>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
